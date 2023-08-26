@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+*{
+  /* font-family: sans-serif; */
+  padding: 0px;
+  margin: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul{
+  list-style: none;
+  margin: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav{
+  background: #161a5f;
+  border-bottom: 2px solid red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top{
+  margin-left: 5%;
+  color: #fff;
+  font-size: 14px;
+}
+.nav-link:hover{
+  border-bottom: solid 1px #bd0b0b;
+}
+.img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+.img-link :hover{
+  padding: 3px;
+  width: 25px;
+  border-radius: 3px;
+}
+.fab{
   display: flex;
-  flex-direction: column;
+  justify-content: right;
+  width: 100%;
+  color: #fff;
+}
+.whatsapp{
+  background-color: #1ab147;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.carousel-item img{
+  height: 80vh;
+}
+/* .carousel-item h3{
+  color: #f3f5f7;
+}
+.carousel-item p{
+  color: #f3f5f7;
+} */
+.services{
+  font-size: 14px;
+  background: #f3f5f7;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 40vh;
+  padding: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.services .col{
+  margin: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.our{
+  color: #bd0b0b;
+}
+.services h2{
+  color: #161a5f;
+  border-bottom: 2px dotted #fd0202;
+}
+.col li, p{
+  padding: 5px;
+  font-weight: 500;
+}
+.col li span{
+  margin-left: 30px;
+}
+.video{
+  background: #f3f5f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.video h3{
+  color: #161a5f;
+  border-bottom: 2px dotted #fd0202;
+}
+.card{
+  transition: all 0.3s;
+}
+.card:hover{
+  transform: scale(1.15);
+}
+ .card-body{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  font-size: larger;
+  height: min-content;
+  opacity: 0.9;
+  margin-top: -50px;
+  background: #011927;
+}
+.card-text{
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+  background: #161a5f;
+  opacity: 0.9;
+  color: #fff;
+  min-height: 40vh;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.footer .col{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+.footer h4{
+  border-bottom: 3px solid #060830;
+}
+.footer .li{
+  border-bottom: 1px groove #060830;
+}
+.footer .link{
+  text-decoration: none;
+  color: #a58805;
 }
