@@ -14,9 +14,10 @@ export default function Sermons(){
     const [isloaded, setLoaded] = useState(false);
     
     useEffect(() =>{
-        axios.get("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCMRT1Iy49Jmy4JReNqFeehw&maxResults=50&order=date&key=AIzaSyASTJ4rZSUHAsJ8OZCYzSZhw2EHtnVhaNs")
+        axios.get("https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UC_x5XG1OV2P6uZZ5FSM9Ttw&maxResults=50&key=AIzaSyDFqjomFjYzKra_TyYHry6Co56aCPFVVZ0")
         .then(res =>{
             setvideos(res.data.items)
+            console.log(res.data.items)
         })
         .catch(err =>{
             console.log(err)
