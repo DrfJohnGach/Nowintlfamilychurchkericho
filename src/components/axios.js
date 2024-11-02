@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = 'http://44.193.197.186:8221/';
+const baseUrl = 'https://apiserver.nowfamilychurchkericho.com/';
 
 const axiosInstance = axios.create({
     baseURL: baseUrl,

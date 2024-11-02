@@ -2,6 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import facebook from '../assets/facebook.svg';
+import you from '../assets/yuo.png';
+import tiktok from '../assets/tiktok.svg';
 
 export default function Footer(){
     return(
@@ -24,6 +27,16 @@ export default function Footer(){
                             <li className="li"><Link to={'#'} className="link">About Us</Link></li>
                             <li className="li"><Link to={'#'} className="link">Sermons</Link></li>
                             <li className="li"><Link to={'#'} className="link">Give</Link></li>
+                            <li>
+                                <div className="mt-1">
+                                    <Link to={'https://www.facebook.com/kiptoo.maiyo'} className="img-link">
+                                        <img src={facebook} className="img1" alt="facebook" /></Link>
+                                    <Link to={'https://www.youtube.com/@pastorkiptoomaiyo5913'} className="img-link">
+                                        <img src={you} className="img1" alt="youtube" /></Link>
+                                    <Link to={'https://vm.tiktok.com/ZM2oREvJ9/'} className="img-link">
+                                        <img src={tiktok} className="img1" alt="Tweeter" /></Link>
+                                </div>
+                            </li>
                         </ul>
                     </Col>
                     <Col sm={true}>

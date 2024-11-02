@@ -27,6 +27,14 @@ ul{
   padding: 3px;
   border-radius: 3px;
 }
+.img1{
+  width: 30px;
+  height: 25px;
+  margin-right: 5px;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
 .img-link :hover{
   padding: 3px;
   width: 25px;
@@ -41,7 +49,7 @@ ul{
 .whatsapp{
   background-color: #1ab147;
   margin-right: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding: 10px;
   border-radius: 15px;
   text-decoration: none;
