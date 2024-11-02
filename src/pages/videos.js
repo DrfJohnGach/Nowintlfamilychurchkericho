@@ -38,9 +38,7 @@ const videos = [
 
 export default function Sermons(){
     const [song, setsong] = useState();
-    // const [videos, setvideos] = useState([]);
     const [data, setData] = useState([]);
-    const [isvloaded, setVloaded] = useState(false);
     const [isloaded, setLoaded] = useState(false);
     
     useEffect(() =>{
