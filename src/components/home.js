@@ -50,8 +50,8 @@ function Home() {
                         <FontAwesomeIcon icon={faHouse} className="m-1 mt-0 mb-0" />Home</Nav.Link>
                     <Nav.Link href="/#services" className="text-blue">
                         <FontAwesomeIcon icon={faUser} className="m-1 mt-0 mb-0" /> About</Nav.Link>
-                    <Nav.Link href="sermons#" className="text-blue">
-                        <FontAwesomeIcon icon={faBible} className="m-1 mt-0 mb-0" />Sermons</Nav.Link>
+                    <Link to="sermons#" className="text-blue">
+                        <FontAwesomeIcon icon={faBible} className="m-1 mt-0 mb-0" />Sermons</Link>
                     <Nav.Link href="#footer" className="text-blue">
                         <FontAwesomeIcon icon={faHeart} className="m-1 mt-0 mb-0" /> Give</Nav.Link>
                 </Nav>
