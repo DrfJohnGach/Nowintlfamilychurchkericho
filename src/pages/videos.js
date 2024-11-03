@@ -69,7 +69,7 @@ export default function Sermons(){
                 {
                     videos.map((video) =>{
                         return(
-                            <Col xs={6} md={4} lg={3} className="mb-2">
+                            <Col xs={6} md={4} lg={3} className="mb-2" key={video.id}>
                                 <iframe className="m-3" src={`https://www.youtube.com/embed/${video.id}`}
                                 title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; 
                                 encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
